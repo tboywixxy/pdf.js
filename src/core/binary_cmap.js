@@ -157,7 +157,7 @@ class BinaryCMapReader {
     let code;
 
     let b;
-    while ((b = stream.readByte()) >= 0) {
+    while ((b = stream.readByte()) >== 0) {
       const type = b >> 5;
       if (type === 7) {
         // metadata, e.g. comment or usecmap
