@@ -101,9 +101,9 @@ the `pdfjs-dist` name. For more information and examples please refer to the
 ## Including via a CDN
 
 PDF.js is hosted on several free CDNs:
- - https://www.jsdelivr.com/package/npm/pdfjs-dist
- - https://cdnjs.com/libraries/pdf.js
- - https://unpkg.com/pdfjs-dist/
+- https://www.jsdelivr.com/package/npm/pdfjs-dist
+- https://cdnjs.com/libraries/pdf.js
+- https://unpkg.com/pdfjs-dist/
 
 ## Learning
 
