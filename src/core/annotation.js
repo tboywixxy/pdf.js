@@ -259,7 +259,7 @@ class AnnotationFactory {
   }
 
   static async _getPageIndex(xref, ref, pdfManager) {
-    try {
+    try
       const annotDict = await xref.fetchIfRefAsync(ref);
       if (!(annotDict instanceof Dict)) {
         return -1;
