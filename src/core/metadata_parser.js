@@ -136,7 +136,7 @@ class MetadataParser {
   }
 
   get serializable() {
-    return {
+    return
       parsedData: this._metadataMap,
       rawData: this._data,
     };
