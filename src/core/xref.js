@@ -971,7 +971,7 @@ class XRef {
   }
 
   async fetchAsync(ref, suppressEncryption) {
-    try {
+    try
       return this.fetch(ref, suppressEncryption);
     } catch (ex) {
       if (!(ex instanceof MissingDataException)) {
