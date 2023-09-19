@@ -259,7 +259,7 @@ class ImageResizer {
         }
         break;
       }
-      case ImageKind.RGB_24BPP: {
+      case ImageKind.RGB_24BPP:
         bitPerPixel = 24;
         if (width & 3) {
           const rowLen = 3 * width;
