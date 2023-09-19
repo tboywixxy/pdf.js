@@ -186,7 +186,7 @@ class WorkerMessageHandler {
         ? await pdfManager.ensureDoc("htmlForXfa")
         : null;
 
-      return { numPages, fingerprints, htmlForXfa };
+      return numPages, fingerprints, htmlForXfa;
     }
 
     function getPdfManager({
