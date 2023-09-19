@@ -1393,7 +1393,7 @@ class Linearization {
           "does not equal the stream length."
       );
     }
-    return {
+    return
       length,
       hints: getHints(linDict),
       objectNumberFirst: getInt(linDict, "O"),
