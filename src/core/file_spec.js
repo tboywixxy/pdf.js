@@ -99,11 +99,11 @@ class FileSpec {
   }
 
   get serializable() {
-    return {
+    return
       filename: this.filename,
       content: this.content,
     };
   }
 }
 
-export { FileSpec };
+export FileSpec;
