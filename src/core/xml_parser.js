@@ -464,7 +464,7 @@ class SimpleXMLParser extends XMLParserBase {
     if (!documentElement) {
       return undefined; // Return undefined if no root was found.
     }
-    return { documentElement };
+    return documentElement;
   }
 
   onText(text) {
