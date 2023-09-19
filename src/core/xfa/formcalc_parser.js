@@ -606,7 +606,7 @@ class AstCall extends Leaf {
   }
 
   dump() {
-    return {
+    return
       callee: this.callee.dump(),
       params: this.params.map(x => x.dump()),
     };
