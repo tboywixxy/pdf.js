@@ -1056,4 +1056,4 @@ class CCITTFaxDecoder {
   }
 }
 
-export { CCITTFaxDecoder };
+export CCITTFaxDecoder;
