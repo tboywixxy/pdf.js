@@ -687,7 +687,7 @@ async function createBuiltInCMap(name, fetchBuiltInCMap) {
     throw new Error("Built-in CMap parameters are not provided.");
   }
 
-  const { cMapData, compressionType } = await fetchBuiltInCMap(name);
+  const cMapData, compressionType = await fetchBuiltInCMap(name);
   const cMap = new CMap(true);
 
   if (compressionType === CMapCompressionType.BINARY) {
