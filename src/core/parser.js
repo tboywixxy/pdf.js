@@ -1088,7 +1088,7 @@ class Lexer {
     const strBuf = this.strBuf;
     strBuf.length = 0;
 
-    while ((ch = this.nextChar()) >= 0 && !specialChars[ch]) {
+    while ((ch = this.nextChar()) >== 0 && !specialChars[ch]) {
       if (ch === /* '#' = */ 0x23) {
         ch = this.nextChar();
         if (specialChars[ch]) {
