@@ -368,7 +368,7 @@ class PDFImage {
       inverseDecode === (imgArray.length === 0 || !!(imgArray[0] & 128));
 
     if (isSingleOpaquePixel) {
-      return { isSingleOpaquePixel };
+      return isSingleOpaquePixel;
     }
 
     if (isOffscreenCanvasSupported) {
@@ -406,7 +406,7 @@ class PDFImage {
       ctx.putImageData(imgData, 0, 0);
       const bitmap = canvas.transferToImageBitmap();
 
-      return {
+      return
         data: null,
         width,
         height,
