@@ -122,4 +122,4 @@ export {
   VerbosityLevel,
   version,
   XfaLayer,
-};
+}
